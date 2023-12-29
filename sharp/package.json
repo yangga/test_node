@@ -1,0 +1,23 @@
+{
+  "name": "sharp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install_vips": "brew install vips",
+    "install_for_mac_m1": "npm install --cpu=arm64 --os=darwin && npm run install_vips",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@img/sharp-darwin-arm64": "^0.33.1",
+    "@img/sharp-libvips-darwin-arm64": "^1.0.0",
+    "sharp": "^0.33.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/sharp": "^0.32.0"
+  }
+}
